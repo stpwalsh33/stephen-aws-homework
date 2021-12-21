@@ -1,0 +1,26 @@
+.status-container {
+  display: flex;
+  align-items: center;
+  
+  .status-running {
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    margin-right: 5px;
+    background-color: #42b819;
+  }
+  .status-stopping {
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    margin-right: 5px;
+    background-color: #f14b1e;
+  }
+  .status-pending {
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    margin-right: 5px;
+    background-color: yellow;
+  }
+}

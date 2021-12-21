@@ -1,0 +1,61 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~react-table/react-table.css';
+
+html, body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+  color: #181818;
+
+  a, a:hover {
+    text-decoration: none;
+    color: black;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+  .v-c {
+    display: flex;
+    align-items: center;
+  }
+
+  .h-c {
+    display: flex;
+    justify-content: center;
+	}
+
+	.v-r {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.app {
+		height: 100vh;
+	}
+
+  .shadow-object {
+    box-shadow: 0 3px 6px rgba($color: #000000, $alpha: 0.16);
+  }
+
+  h1 {
+    font-size: 23px;
+  }
+
+  p, a {
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #181818;
+    font-weight: normal;
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+  .MuiContainer-maxWidthLg {
+    max-width: 1600px !important;
+  }
+}
